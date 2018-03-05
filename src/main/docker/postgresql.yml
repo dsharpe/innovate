@@ -1,0 +1,11 @@
+version: '2'
+services:
+    innovate-postgresql:
+        image: postgres:9.6.5
+        # volumes:
+        #     - ~/volumes/jhipster/innovate/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=innovate
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
