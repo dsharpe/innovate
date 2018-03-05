@@ -33,6 +33,8 @@
     "nativeLanguage": "en",
     "languages": [
       "en"
-    ]
+    ],
+    "herokuDeployType": "jar",
+    "herokuAppName": "blooming-peak-43709"
   }
 }
